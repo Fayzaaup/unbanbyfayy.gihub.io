@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'Tahoma';
+}
+
+@media screen and (max-width: 600px) {
+body {
+  background-color: #1b1535;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+}
+
+header {
+  text-align: center;
+  background-color: #2c2546;
+  position: fixed;
+  width: 100%;
+  font-weight: bold;
+  padding: 2%;
+  top: 0;
+  text-align: center;
+}
+
+.title
+{
+  color: #00eb09;
+  border-buttom: 1px solid #fff;
+  font-size: 15pt;
+  
+}
+
+.input-search
+{
+  width: 50%;
+  border: none;
+  border-radius: 0 0 0 15px;
+  padding: 2px;
+}
+
+.input-submit
+{
+  margin-left: -5px;
+  border: none;
+  border-radius: 0 15px 0 0;
+  padding: 2px;
+  background-color: #00eb09;
+  width: 15%;
+  font-weight: bold;
+}
+
+.desk
+{
+  color: #f4f4f4;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.deskripsi p
+{
+  color: #f4f4f4;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', serif;
+}
+
+nav
+{
+  margin-top: 5px;
+}
+
+nav ul
+{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: #00eb09;
+}
+
+nav ul li a:hover {
+  border-buttom: 1px solid #fff;
+}
+
+.email-button {
+      padding: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      background-color: #00eb09;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      width: 150px;
+      height: 100px;
+      margin-left: 6%;
+      margin-right: 5%;
+      font-family: 'Times New Roman', serif;
+    }
+
+#profil {
+  text-align: center;
+  padding: 2em;
+}
+
+#profil img {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+#skill {
+  text-align: center;
+  padding: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#kontak {
+  text-align: center;
+  padding: 2em;
+}
+
+#kontak h2 
+{
+  text-align: left;
+}
+
+.email-button {
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.copyright
+{
+  margin: 2px;
+  padding: 2px;
+  font-family: Arial;
+  background-color: #2c2546;
+  font-weight: bold;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.footer
+{
+  text-align: center;
+}
+
+.footer p
+{
+  color: #f4f4f4;
+  text-align: left;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> c7c19cf (Fayy Dev)
